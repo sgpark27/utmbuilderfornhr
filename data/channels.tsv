@@ -1,0 +1,248 @@
+ID	채널명	매체명	utm_source	utm_medium	URL
+ad-001	커리어톡	빅배너	careertalk	big	https://www.careertalk.kr
+ad-002	커리어톡	스페셜배너	careertalk	special	https://www.careertalk.kr
+ad-003	커리어톡	콘텐츠 단독 배너	careertalk	contents	https://www.careertalk.kr
+ad-004	커리어톡	카카오 단독 Push	careertalk	kakaopush	https://www.careertalk.kr
+ad-005	커리어톡	카카오톡 캐러셀 Push 메인/서브	careertalk	carousel	https://www.careertalk.kr
+ad-006	커리어톡	MMS 타깃 Push	careertalk	mms	https://www.careertalk.kr
+ad-007	커리어톡	커리어톡TV	careertalk	tv	https://www.careertalk.kr
+ad-008	커리어톡	페이스북	careertalk	facebook	https://www.careertalk.kr
+ad-009	커리어톡	인스타그램	careertalk	insta	https://www.careertalk.kr
+ad-010	커리어톡	링크드인 피드	careertalk	linkedin	https://www.careertalk.kr
+ad-011	스누라이프	PC 메인 A 배너	snulife	pcmaina	https://www.snulife.com/
+ad-012	스누라이프	PC 메인 B 배너	snulife	pcmainb	https://www.snulife.com/
+ad-013	스누라이프	게시글 배너	snulife	article	https://www.snulife.com/
+ad-014	스누라이프	M 게시판 배너	snulife	mboard	https://www.snulife.com/
+ad-015	세연넷	PC 메인 배너	seiyon	pcmain	https://www.seiyon.net/
+ad-016	세연넷	M 메인 배너	seiyon	mmain	https://www.seiyon.net/
+ad-017	노크	PC 메인 배너	knocks	pcmain	https://knocks.co.kr/
+ad-018	노크	App 메인 배너	knocks	appmain	https://knocks.co.kr/
+ad-019	노크	게시판 배너	knocks	board	https://knocks.co.kr/
+ad-020	고파스	PC 메인 배너	koreapas	pcmain	https://www.koreapas.com/
+ad-021	고파스	M 메인 배너	koreapas	mmain	https://www.koreapas.com/
+ad-022	고파스	PC 게시판 상단 배너	koreapas	pcboard	https://www.koreapas.com/
+ad-023	고파스	인스타 홍보 게시글	koreapas	instagram	https://www.koreapas.com/
+ad-024	고파스	재학생 게시판 상단 배너	koreapas	board	https://www.koreapas.com/
+ad-025	카대전	페이스북 홍보 게시글	kadaejeon	facebook	https://www.facebook.com/KaDaejeon
+ad-026	카대전	페이스북 댓글 배너	kadaejeon	reply	https://www.facebook.com/KaDaejeon
+ad-027	카대전	톡유 게시판 댓글 배너	kadaejeon	talku	https://www.facebook.com/KaDaejeon
+ad-028	포공채널	페이스북 홍보 게시글	pogong	facebook	https://www.facebook.com/postechstu
+ad-029	포공채널	POVIS 홍보 게시글	pogong	povis	https://www.facebook.com/postechstu
+ad-030	포공채널	카카오톡 메시지	pogong	kakao	https://www.facebook.com/postechstu
+ad-031	서담	PC 팝업 배너	seodam	pcpopup	https://www.ssodam.com/
+ad-032	서담	M 팝업 배너	seodam	mpopup	https://www.ssodam.com/
+ad-033	서담	PC 우측 배너	seodam	pcright	https://www.ssodam.com/
+ad-034	서담	M 메인	seodam	mmain	https://www.ssodam.com/
+ad-035	서담	M 게시판	seodam	mboard	https://www.ssodam.com/
+ad-036	서담	M 게시물	seodam	mpost	https://www.ssodam.com/
+ad-037	위한	PC 중앙 배너	weehan	pccenter	https://www.weehan.com
+ad-038	위한	PC 롤링 배너	weehan	pcroll	https://www.weehan.com
+ad-039	위한	PC 게시판 서브 배너	weehan	pcboard	https://www.weehan.com
+ad-040	위한	M 메인 배너	weehan	mmain	https://www.weehan.com
+ad-041	이화이언	PC 메인 3-A 좌측 배너	ewhaian	pcmainleft	https://ewhaian.com/
+ad-042	카카오톡	비즈보드	kakao	biz	https://www.kakaocorp.com
+ad-043	링크드인	피드	linkedin	feed	https://linkedin.com
+ad-044	자소설닷컴	PC 팝업 배너	jasoseol	pcpopup	https://jasoseol.com
+ad-045	자소설닷컴	PC 채용공고 배너	jasoseol	pcrecruit	https://jasoseol.com
+ad-046	자소설닷컴	PC 메인 배너	jasoseol	pcmain	https://jasoseol.com
+ad-047	자소설닷컴	M 메인 배너	jasoseol	mmain	https://jasoseol.com
+ad-048	자소설닷컴	M 팝업 배너	jasoseol	mpopup	https://jasoseol.com
+ad-049	자소설닷컴	M 채팅목록 배너	jasoseol	mchat	https://jasoseol.com
+ad-050	자소설닷컴	M 텍스트 배너	jasoseol	mtext	https://jasoseol.com
+ad-051	자소설닷컴	맞춤공고	jasoseol	fit	https://jasoseol.com
+ad-052	자소설닷컴	앱 푸시 메시지	jasoseol	push	https://jasoseol.com
+ad-053	사람인	플래티넘 플러스 (PC + M)	saramin	platinumplus	https://saramin.co.kr
+ad-054	사람인	프라임 플러스 (PC + M)	saramin	primeplus	https://saramin.co.kr
+ad-055	사람인	스페셜 플러스 (PC + M)	saramin	specialplus	https://saramin.co.kr
+ad-056	사람인	핫픽 M	saramin	hotpickm	https://saramin.co.kr
+ad-057	잡코리아	메인 빅 배너	jobkorea	mainbig	https://www.jobkorea.co.kr/
+ad-058	잡코리아	메인 우측	jobkorea	mainright	https://www.jobkorea.co.kr/
+ad-059	잡코리아	프리미어 채용관 (PC+M)	jobkorea	premier	https://www.jobkorea.co.kr/
+ad-060	잡코리아	First VVIP 채용관 (PC + M)	jobkorea	firstvvip	https://www.jobkorea.co.kr/
+ad-061	캐치	AI 매칭 배너	catch	ai	https://catch.co.kr
+ad-062	캐치	메인 대형 배너	catch	mainbig	https://catch.co.kr
+ad-063	캐치	지금 주목받는 공고	catch	pop	https://catch.co.kr
+ad-064	캐치	카테고리 공고	catch	category	https://catch.co.kr
+ad-065	캐치	캐치 추천 공고	catch	recommend	https://catch.co.kr
+ad-066	캐치	다른 회원이 함께 본 공고	catch	related	https://catch.co.kr
+ad-067	네이버	브랜드 검색 광고	naver	brandsearch	https://www.naver.com
+ad-068	네이버	치지직 인스트림 15초 SKIP 광고	naver	instreaml	https://www.naver.com
+ad-069	네이버	치지직 인스트림 5초 SKIP 광고	naver	instreams	https://www.naver.com
+ad-070	카카오톡	비즈보드	kakao	bizboard	https://www.kakaocorp.com
+ad-071	인스타그램	스토리	instg	story	https://instagram.com
+ad-072	인스타그램	피드	instg	feed	https://instagram.com
+ad-073	메타	스토리	meta	story	https://facebook.com
+ad-074	메타	피드	meta	feed	https://facebook.com
+ad-075	구글	Google Ads 디스플레이 광고	google	cpc	https://www.google.com
+ad-076	당근	네이티브 피드 광고	danggeun	feed	https://www.daangn.com
+ad-077	당근	검색 광고	danggeun	search	https://www.daangn.com
+ad-078	토스	썸네일 배너	toss	thumbnail	https://toss.im/
+ad-079	토스	리스트/모먼트 배너	toss	list	https://toss.im/
+ad-080	토스	풀페이지 배너	toss	fullpage	https://toss.im/
+ad-081	토스	머니 알림	toss	money	https://toss.im/
+ad-082	토스	행운 퀴즈	toss	quiz	https://toss.im/
+ad-083	토스	이번주 미션	toss	mission	https://toss.im/
+ad-084	토스	게시물 보고 포인트 받기	toss	article	https://toss.im/
+ad-085	에브리타임	홈배너	everytime	homebanner	https://everytime.kr/
+ad-086	에브리타임	홈카드	everytime	homecard	https://everytime.kr/
+ad-087	에브리타임	채용 정보	everytime	recruit	https://everytime.kr/
+ad-088	에브리타임	커뮤니티 보드	everytime	board	https://everytime.kr/
+ad-089	에브리타임	커뮤니티 네이티브	everytime	native	https://everytime.kr/
+ad-090	에브리타임	데일리 메시지	everytime	daily	https://everytime.kr/
+ad-091	스펙업	메인 TOP 배너	specup	maintop	https://cafe.naver.com/specup
+ad-092	스펙업	우측 빅배너	specup	rightbig	https://cafe.naver.com/specup
+ad-093	스펙업	우측 띠배너	specup	rightline	https://cafe.naver.com/specup
+ad-094	스펙업	스퀘어 빅배너	specup	squarebig	https://cafe.naver.com/specup
+ad-095	스펙업	글 양식 배너	specup	article	https://cafe.naver.com/specup
+ad-096	스펙업	카카오톡 DM	specup	kakaodm	https://cafe.naver.com/specup
+ad-097	링커리어	메인 배너	linkareer	main	https://linkareer.com/
+ad-098	링커리어	ALL 커버 배너	linkareer	allcover	https://linkareer.com/
+ad-099	링커리어	핫라인 배너	linkareer	hotline	https://linkareer.com/
+ad-100	링커리어	추천활동 배너	linkareer	recommend	https://linkareer.com/
+ad-101	링커리어	금주의 인기공고 배너	linkareer	popular	https://linkareer.com/
+ad-102	링커리어	채용 배너	linkareer	rcrt	https://linkareer.com/
+ad-103	링커리어	커뮤니티 배너	linkareer	commbanner	https://linkareer.com/
+ad-104	캠퍼스픽	커뮤니티 보드	campuspick	commboard	https://www.campuspick.com/
+ad-105	캠퍼스픽	활동 배너	campuspick	actbanner	https://www.campuspick.com/
+ad-106	슥삭	1순위 타겟팅	ssgsag	firsttg	https://www.ssgsag.kr/
+ad-107	슥삭	오픈팝업	ssgsag	popup	https://www.ssgsag.kr/
+ad-108	슥삭	인기배너	ssgsag	popular	https://www.ssgsag.kr/
+ad-109	슥삭	최상단배너	ssgsag	top	https://www.ssgsag.kr/
+ad-110	슥삭	카테고리 상단배너	ssgsag	category	https://www.ssgsag.kr/
+ad-111	아웃캠퍼스	카페 상단 배너	outcampus	top	https://cafe.naver.com/outcampus
+ad-112	아웃캠퍼스	카페 상단 우측 배너	outcampus	topright	https://cafe.naver.com/outcampus
+ad-113	아웃캠퍼스	카페 메인&서브 배너	outcampus	mainsub	https://cafe.naver.com/outcampus
+ad-114	아웃캠퍼스	카페 추천 배너	outcampus	recommend	https://cafe.naver.com/outcampus
+ad-115	아웃캠퍼스	유튜브 1분합격자기소개	outcampus	selfintro	https://cafe.naver.com/outcampus
+ad-116	아웃캠퍼스	유튜브 합격인사이트	outcampus	insight	https://cafe.naver.com/outcampus
+ad-117	아웃캠퍼스	인스타그램 추천리스트 3p	outcampus	threep	https://cafe.naver.com/outcampus
+ad-118	아웃캠퍼스	인스타그램 금주의 아캠 pick	outcampus	weekpick	https://cafe.naver.com/outcampus
+ad-119	아웃캠퍼스	페이스북 단독 포스팅	outcampus	facebook	https://cafe.naver.com/outcampus
+ad-120	요즘것들	페이스북 최상단 배너	allforyoung	top	https://www.allforyoung.com/
+ad-121	요즘것들	페이스북 띠배너	allforyoung	line	https://www.allforyoung.com/
+ad-122	요즘것들	페이스북 랭킹배너	allforyoung	rank	https://www.allforyoung.com/
+ad-123	요즘것들	페이스북 픽배너	allforyoung	pick	https://www.allforyoung.com/
+ad-124	요즘것들	페이스북 와이드배너	allforyoung	wide	https://www.allforyoung.com/
+ad-125	대티즌	TOP 배너	detizen	top	https://www.detizen.com/
+ad-126	대티즌	스페셜 A 배너	detizen	speciala	https://www.detizen.com/
+ad-127	대티즌	스페셜 B 배너	detizen	specialb	https://www.detizen.com/
+ad-128	대티즌	BAND 배너	detizen	band	https://www.detizen.com/
+ad-129	대티즌	CHOICE 배너	detizen	choice	https://www.detizen.com/
+ad-130	대티즌	LOGIN 배너	detizen	login	https://www.detizen.com/
+ad-131	대티즌	SNS 카드 뉴스	detizen	snscard	https://www.detizen.com/
+ad-132	대티즌	단독 EDM	detizen	edm	https://www.detizen.com/
+ad-133	올콘	메인 A 배너	allcon	maina	https://www.all-con.co.kr/
+ad-134	올콘	메인 B 배너	allcon	mainb	https://www.all-con.co.kr/
+ad-135	올콘	메인 C / 이벤트 배너	allcon	mainc	https://www.all-con.co.kr/
+ad-136	올콘	롤링 D 배너	allcon	rollingd	https://www.all-con.co.kr/
+ad-137	올콘	게시판 상위 고정	allcon	articletop	https://www.all-con.co.kr/
+ad-138	씽굿	A배너	thinkcon	abanner	https://www.thinkcontest.com
+ad-139	씽굿	B배너	thinkcon	bbanner	https://www.thinkcontest.com
+ad-140	씽굿	C배너	thinkcon	cbanner	https://www.thinkcontest.com
+ad-141	씽굿	D배너	thinkcon	dbanner	https://www.thinkcontest.com
+ad-142	씽굿	S1배너	thinkcon	s1	https://www.thinkcontest.com
+ad-143	씽굿	S2배너	thinkcon	s2	https://www.thinkcontest.com
+ad-144	씽굿	로그인배너	thinkcon	login	https://www.thinkcontest.com
+ad-145	씽굿	M1배너	thinkcon	m1	https://www.thinkcontest.com
+ad-146	씽굿	M2배너	thinkcon	m2	https://www.thinkcontest.com
+ad-147	위비티	팝업배너	wevity	popup	https://www.wevity.com/
+ad-148	위비티	모바일 상단 배너	wevity	mobiletop	https://www.wevity.com/
+ad-149	위비티	웹 상단 배너	wevity	webtop	https://www.wevity.com/
+ad-150	위비티	웹 메인 우측 배너	wevity	webmainright	https://www.wevity.com/
+ad-151	위비티	웹 스페셜 배너	wevity	webspecial	https://www.wevity.com/
+ad-152	부트텐트	메인배너	boottent	main	https://boottent.com/
+ad-153	부트텐트	상위노출카드	boottent	top	https://boottent.com/
+ad-154	부트텐트	이벤트 적용	boottent	event	https://boottent.com/
+ad-155	부트텐트	디데이 적용	boottent	dday	https://boottent.com/
+ad-156	부트텐트	타이틀 태그	boottent	title	https://boottent.com/
+ad-157	렛플	체크 필요	letspl		https://letspl.me/
+ad-158	리멤버	프리미엄 대표기업	remember	premium	https://career.rememberapp.co.kr
+ad-159	리멤버	메인 상단 배너	remember	maintop	https://career.rememberapp.co.kr
+ad-160	리멤버	메인 중간 배너	remember	maincenter	https://career.rememberapp.co.kr
+ad-161	리멤버	공고 상세 사이드 배너	remember	detail	https://career.rememberapp.co.kr
+ad-162	리멤버	타겟 공고	remember	target	https://career.rememberapp.co.kr
+ad-163	블라인드	댓글 배너	blind	comment	https://www.teamblind.com/kr/
+ad-164	블라인드	피드 광고	blind	feed	https://www.teamblind.com/kr/
+ad-165	블라인드	게시글 하단 띠 배너	blind	articleline	https://www.teamblind.com/kr/
+ad-166	블라인드	서베이 광고	blind	survey	https://www.teamblind.com/kr/
+ad-167	블라인드	앱 알림 서비스	blind	alarm	https://www.teamblind.com/kr/
+ad-168	블라인드	브랜딩 보드	blind	branding	https://www.teamblind.com/kr/
+ad-169	잡플래닛	팝업 배너 광고	jobplanet	popup	https://www.jobplanet.co.kr/
+ad-170	잡플래닛	네이티브 배너 광고	jobplanet	native	https://www.jobplanet.co.kr/
+ad-171	잡플래닛	디스플레이 배너 광고	jobplanet	display	https://www.jobplanet.co.kr/
+ad-172	잡플래닛	스퀘어 배너 광고	jobplanet	square	https://www.jobplanet.co.kr/
+ad-173	원티드	메인 배너	wanted	main	https://www.wanted.co.kr/
+ad-174	원티드	직무 상단 광고	wanted	top	https://www.wanted.co.kr/
+ad-175	원티드	회원 대상 이메일	wanted	email	https://www.wanted.co.kr/
+ad-176	링크드인	스폰서 콘텐츠 - 단일 이미지	linkedin	img	https://www.linkedin.com
+ad-177	링크드인	스폰서 콘텐츠 - 비디오 광고	linkedin	video	https://www.linkedin.com
+ad-178	링크드인	스폰서 콘텐츠 - 캐러셀 광고	linkedin	carousel	https://www.linkedin.com
+ad-179	링크드인	스폰서 InMail	linkedin	inmail	https://www.linkedin.com
+ad-180	링크드인	텍스트 광고	linkedin	text	https://www.linkedin.com
+ad-181	프로그래머스	메인 배너	programmers	main	https://programmers.co.kr/
+ad-182	OKKY	메인 페이지 상단 중앙	okky	maincenter	https://okky.kr/
+ad-183	OKKY	메인 페이지 스크롤 다운 우측	okky	mainright	https://okky.kr/
+ad-184	OKKY	메인 페이지 스크롤 다운 좌측	okky	mainleft	https://okky.kr/
+ad-185	OKKY	목록 페이지 배너	okky	list	https://okky.kr/
+ad-186	OKKY	상세 페이지 배너	okky	detail	https://okky.kr/
+ad-187	OKKY	온라인 eDM 광고	okky	edm	https://okky.kr/
+ad-188	OKKY	Page in 광고	okky	pagein	https://okky.kr/
+ad-189	게임잡	백스킨 배너	gamejob	backskin	https://www.gamejob.co.kr/
+ad-190	게임잡	메인 탑 배너	gamejob	maintop	https://www.gamejob.co.kr/
+ad-191	게임잡	메인 상단띠	gamejob	maintopline	https://www.gamejob.co.kr/
+ad-192	게임잡	메인 미들띠	gamejob	mainmiddleline	https://www.gamejob.co.kr/
+ad-193	게임잡	서브스카이	gamejob	subsky	https://www.gamejob.co.kr/
+ad-194	게임잡	서브하단	gamejob	subbottom	https://www.gamejob.co.kr/
+ad-195	게임잡	모바일 메인띠	gamejob	mobilemain	https://www.gamejob.co.kr/
+ad-196	백준	메인 페이지 광고	baekjoon	main	https://www.acmicpc.net/
+ad-197	백준	채점 현황 페이지 상단 배너	baekjoon	evaluate	https://www.acmicpc.net/
+ad-198	하이브레인넷	플래티넘 플러스 배너	hibrain	platinumplus	https://www.hibrain.net/
+ad-199	하이브레인넷	플래티넘 배너	hibrain	platinum	https://www.hibrain.net/
+ad-200	하이브레인넷	골드 배너	hibrain	gold	https://www.hibrain.net/
+ad-201	하이브레인넷	실버 배너	hibrain	silver	https://www.hibrain.net/
+ad-202	하이브레인넷	브론즈 배너	hibrain	bronze	https://www.hibrain.net/
+ad-203	하이브레인넷	줄광고	hibrain	line	https://www.hibrain.net/
+ad-204	김박사넷	메인 배너 (프리미엄)	phdkim	mainpremium	https://phdkim.net/
+ad-205	김박사넷	메인 배너 (베이직)	phdkim	mainbasic	https://phdkim.net/
+ad-206	김박사넷	팝업 광고	phdkim	popup	https://phdkim.net/
+ad-207	김박사넷	최상단 띠배너	phdkim	top	https://phdkim.net/
+ad-208	김박사넷	중단 띠배너	phdkim	middle	https://phdkim.net/
+ad-209	김박사넷	캐러셀 광고	phdkim	carousel	https://phdkim.net/
+ad-210	가방끈	메인 상단배너	bagstrap	maintop	https://www.bagstrap.team/
+ad-211	가방끈	하단 가로형 배너	bagstrap	bottom	https://www.bagstrap.team/
+ad-212	가방끈	채용공고	bagstrap	recruit	https://www.bagstrap.team/
+ad-213	가방끈	커뮤니티 게시글 광고	bagstrap	article	https://www.bagstrap.team/
+ad-214	가방끈	앱 푸시 메세지	bagstrap	push	https://www.bagstrap.team/
+ad-215	피플앤잡	G-1 배너 상품	peoplenjob	g1	https://www.peoplenjob.com/
+ad-216	피플앤잡	G-2 배너 상품	peoplenjob	g2	https://www.peoplenjob.com/
+ad-217	피플앤잡	M 그랜드 배너 상품	peoplenjob	mgrand	https://www.peoplenjob.com/
+ad-218	피플앤잡	R 그랜드 배너 상품	peoplenjob	rgrand	https://www.peoplenjob.com/
+ad-219	슈퍼루키	메인 빅배너	superookie	mainbig	https://www.superookie.com/
+ad-220	슈퍼루키	메인 상단 배너	superookie	mtop	https://www.superookie.com/
+ad-221	슈퍼루키	채용 공고 상단 배너	superookie	article	https://www.superookie.com/
+ad-222	슈퍼루키	사이드 배너	superookie	side	https://www.superookie.com/
+ad-223	슈퍼루키	메인 체크리스트	superookie	maincheck	https://www.superookie.com/
+ad-224	슈퍼루키	채용공고 사이드 배너	superookie	recruitside	https://www.superookie.com/
+ad-225	슈퍼루키	추천 채용 공고 배너	superookie	recommend	https://www.superookie.com/
+ad-226	슈퍼루키	채용공고 최상단 고정 옵션	superookie	articletop	https://www.superookie.com/
+ad-227	디맨드	시작 팝업 모달	dmand	startpopup	https://www.dmand.co.kr/
+ad-228	디맨드	홈 하이라이트 배너	dmand	homehilight	https://www.dmand.co.kr/
+ad-229	디맨드	홈 포커스 배너	dmand	homefocus	https://www.dmand.co.kr/
+ad-230	디맨드	디맨드 추천 공고	dmand	recommend	https://www.dmand.co.kr/
+ad-231	디맨드	홈 라인 배너	dmand	homeline	https://www.dmand.co.kr/
+ad-232	디맨드	오늘 HOT한 공고	dmand	hot	https://www.dmand.co.kr/
+ad-233	디맨드	채용 프리미엄 배너	dmand	premium	https://www.dmand.co.kr/
+ad-234	디맨드	지금 주목받는 공고	dmand	pop	https://www.dmand.co.kr/
+ad-235	알바몬	M 지역 TOP 배너	albamon	mtop	https://www.albamon.com/
+ad-236	알바몬	플래티넘 VIP 배너	albamon	platinumvip	https://www.albamon.com/
+ad-237	알바몬	그랜드 배너	albamon	grand	https://www.albamon.com/
+ad-238	알바몬	M 지역 그랜드	albamon	mgrand	https://www.albamon.com/
+ad-239	건설워커	VIP 배너형 채용속보	worker	vipbanner	https://www.worker.co.kr/
+ad-240	건설워커	GRAND 배너형 플러스 채용속보	worker	grand	https://www.worker.co.kr/
+ad-241	건설워커	건설워커 빅배너 광고	worker	bigbanner	https://www.worker.co.kr/
+ad-242	노트폴리오	상단 띠 배너 광고	notefolio	topline	https://notefolio.net/
+ad-243	노트폴리오	메인 롤링 광고	notefolio	mainrolling	https://notefolio.net/
+ad-244	노트폴리오	콘텐츠형 디스플레이 광고	notefolio	contents	https://notefolio.net/
+ad-245	노트폴리오	메인 팝업 배너 광고	notefolio	mpopup	https://notefolio.net/
+ad-246	노트폴리오	인스타그램 포스팅	notefolio	instagram	https://notefolio.net/
+ad-247	라우드소싱	eDM 발송	loud	edm	https://www.loud.kr/

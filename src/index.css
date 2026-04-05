@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Pretendard Variable", Pretendard, -apple-system,
+      BlinkMacSystemFont, system-ui, sans-serif;
+  }
+
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: inherit;
+  }
+}
+
+body {
+  @apply font-sans antialiased text-slate-800 bg-slate-50;
+}
