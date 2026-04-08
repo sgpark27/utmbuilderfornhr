@@ -3,11 +3,14 @@ ad-001	커리어톡	빅배너	careertalk	big	https://www.careertalk.kr
 ad-002	커리어톡	스페셜배너	careertalk	special	https://www.careertalk.kr
 ad-003	커리어톡	콘텐츠 단독 배너	careertalk	contents	https://www.careertalk.kr
 ad-004	커리어톡	카카오 단독 Push	careertalk	kakaopush	https://www.careertalk.kr
-ad-005	커리어톡	카카오톡 캐러셀 Push 메인/서브	careertalk	carousel	https://www.careertalk.kr
+ad-005	커리어톡	카카오톡 캐러셀 Push 메인	careertalk	carousel_main	https://www.careertalk.kr
+ad-249	커리어톡	카카오톡 캐러셀 Push 서브	careertalk	carousel_sub	https://www.careertalk.kr
 ad-006	커리어톡	MMS 타깃 Push	careertalk	mms	https://www.careertalk.kr
 ad-007	커리어톡	커리어톡TV	careertalk	tv	https://www.careertalk.kr
 ad-008	커리어톡	페이스북	careertalk	facebook	https://www.careertalk.kr
-ad-009	커리어톡	인스타그램	careertalk	insta	https://www.careertalk.kr
+ad-009	커리어톡	인스타그램 피드	careertalk	insta_feed	https://www.careertalk.kr
+ad-250	커리어톡	인스타그램 스토리	careertalk	insta_story	https://www.careertalk.kr
+ad-251	커리어톡	포인트	careertalk	point	https://www.careertalk.kr
 ad-010	커리어톡	링크드인 피드	careertalk	linkedin	https://www.careertalk.kr
 ad-011	스누라이프	PC 메인 A 배너	snulife	pcmaina	https://www.snulife.com/
 ad-012	스누라이프	PC 메인 B 배너	snulife	pcmainb	https://www.snulife.com/
@@ -40,7 +43,7 @@ ad-038	위한	PC 롤링 배너	weehan	pcroll	https://www.weehan.com
 ad-039	위한	PC 게시판 서브 배너	weehan	pcboard	https://www.weehan.com
 ad-040	위한	M 메인 배너	weehan	mmain	https://www.weehan.com
 ad-041	이화이언	PC 메인 3-A 좌측 배너	ewhaian	pcmainleft	https://ewhaian.com/
-ad-042	카카오톡	비즈보드	kakao	biz	https://www.kakaocorp.com
+ad-042	카카오톡	비즈보드	kakao	bizboard	https://www.kakaocorp.com
 ad-043	링크드인	피드	linkedin	feed	https://linkedin.com
 ad-044	자소설닷컴	PC 팝업 배너	jasoseol	pcpopup	https://jasoseol.com
 ad-045	자소설닷컴	PC 채용공고 배너	jasoseol	pcrecruit	https://jasoseol.com
@@ -68,7 +71,6 @@ ad-066	캐치	다른 회원이 함께 본 공고	catch	related	https://catch.co.
 ad-067	네이버	브랜드 검색 광고	naver	brandsearch	https://www.naver.com
 ad-068	네이버	치지직 인스트림 15초 SKIP 광고	naver	instreaml	https://www.naver.com
 ad-069	네이버	치지직 인스트림 5초 SKIP 광고	naver	instreams	https://www.naver.com
-ad-070	카카오톡	비즈보드	kakao	bizboard	https://www.kakaocorp.com
 ad-071	인스타그램	스토리	instg	story	https://instagram.com
 ad-072	인스타그램	피드	instg	feed	https://instagram.com
 ad-073	메타	스토리	meta	story	https://facebook.com
@@ -174,9 +176,9 @@ ad-172	잡플래닛	스퀘어 배너 광고	jobplanet	square	https://www.jobplan
 ad-173	원티드	메인 배너	wanted	main	https://www.wanted.co.kr/
 ad-174	원티드	직무 상단 광고	wanted	top	https://www.wanted.co.kr/
 ad-175	원티드	회원 대상 이메일	wanted	email	https://www.wanted.co.kr/
-ad-176	링크드인	스폰서 콘텐츠 - 단일 이미지	linkedin	img	https://www.linkedin.com
-ad-177	링크드인	스폰서 콘텐츠 - 비디오 광고	linkedin	video	https://www.linkedin.com
-ad-178	링크드인	스폰서 콘텐츠 - 캐러셀 광고	linkedin	carousel	https://www.linkedin.com
+ad-176	링크드인	피드 (단일 이미지)	linkedin	img	https://www.linkedin.com
+ad-177	링크드인	피드 (동영상)	linkedin	video	https://www.linkedin.com
+ad-178	링크드인	피드 (복수 이미지 슬라이드)	linkedin	carousel	https://www.linkedin.com
 ad-179	링크드인	스폰서 InMail	linkedin	inmail	https://www.linkedin.com
 ad-180	링크드인	텍스트 광고	linkedin	text	https://www.linkedin.com
 ad-181	프로그래머스	메인 배너	programmers	main	https://programmers.co.kr/
@@ -246,3 +248,4 @@ ad-244	노트폴리오	콘텐츠형 디스플레이 광고	notefolio	contents	ht
 ad-245	노트폴리오	메인 팝업 배너 광고	notefolio	mpopup	https://notefolio.net/
 ad-246	노트폴리오	인스타그램 포스팅	notefolio	instagram	https://notefolio.net/
 ad-247	라우드소싱	eDM 발송	loud	edm	https://www.loud.kr/
+ad-248	인디스워크	채용공고	inthiswork	article	https://inthiswork.com

@@ -64,11 +64,14 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
       { id: "ad-002", label: "스페셜배너", utm_source: "careertalk", utm_medium: "special" },
       { id: "ad-003", label: "콘텐츠 단독 배너", utm_source: "careertalk", utm_medium: "contents" },
       { id: "ad-004", label: "카카오 단독 Push", utm_source: "careertalk", utm_medium: "kakaopush" },
-      { id: "ad-005", label: "카카오톡 캐러셀 Push 메인/서브", utm_source: "careertalk", utm_medium: "carousel" },
+      { id: "ad-005", label: "카카오톡 캐러셀 Push 메인", utm_source: "careertalk", utm_medium: "carousel_main" },
+      { id: "ad-249", label: "카카오톡 캐러셀 Push 서브", utm_source: "careertalk", utm_medium: "carousel_sub" },
       { id: "ad-006", label: "MMS 타깃 Push", utm_source: "careertalk", utm_medium: "mms" },
       { id: "ad-007", label: "커리어톡TV", utm_source: "careertalk", utm_medium: "tv" },
       { id: "ad-008", label: "페이스북", utm_source: "careertalk", utm_medium: "facebook" },
-      { id: "ad-009", label: "인스타그램", utm_source: "careertalk", utm_medium: "insta" },
+      { id: "ad-009", label: "인스타그램 피드", utm_source: "careertalk", utm_medium: "insta_feed" },
+      { id: "ad-250", label: "인스타그램 스토리", utm_source: "careertalk", utm_medium: "insta_story" },
+      { id: "ad-251", label: "포인트", utm_source: "careertalk", utm_medium: "point" },
       { id: "ad-010", label: "링크드인 피드", utm_source: "careertalk", utm_medium: "linkedin" },
     ],
   },
@@ -104,9 +107,9 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
     faviconDomain: "linkedin.com",
     children: [
       { id: "ad-043", label: "피드", utm_source: "linkedin", utm_medium: "feed" },
-      { id: "ad-176", label: "스폰서 콘텐츠 - 단일 이미지", utm_source: "linkedin", utm_medium: "img" },
-      { id: "ad-177", label: "스폰서 콘텐츠 - 비디오 광고", utm_source: "linkedin", utm_medium: "video" },
-      { id: "ad-178", label: "스폰서 콘텐츠 - 캐러셀 광고", utm_source: "linkedin", utm_medium: "carousel" },
+      { id: "ad-176", label: "피드 (단일 이미지)", utm_source: "linkedin", utm_medium: "img" },
+      { id: "ad-177", label: "피드 (동영상)", utm_source: "linkedin", utm_medium: "video" },
+      { id: "ad-178", label: "피드 (복수 이미지 슬라이드)", utm_source: "linkedin", utm_medium: "carousel" },
       { id: "ad-179", label: "스폰서 InMail", utm_source: "linkedin", utm_medium: "inmail" },
       { id: "ad-180", label: "텍스트 광고", utm_source: "linkedin", utm_medium: "text" },
     ],
@@ -116,8 +119,7 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
     label: "카카오톡",
     faviconDomain: "www.kakaocorp.com",
     children: [
-      { id: "ad-042", label: "비즈보드", utm_source: "kakao", utm_medium: "biz" },
-      { id: "ad-070", label: "비즈보드", utm_source: "kakao", utm_medium: "bizboard" },
+      { id: "ad-042", label: "비즈보드", utm_source: "kakao", utm_medium: "bizboard" },
     ],
   },
   {
@@ -454,7 +456,7 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
     label: "렛플",
     faviconDomain: "letspl.me",
     children: [
-      { id: "ad-157", label: "체크 필요", utm_source: "letspl", utm_medium: "" },
+      { id: "ad-157", label: "확인 필요", utm_source: "letspl", utm_medium: "" },
     ],
   },
   {
@@ -620,6 +622,14 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
     faviconDomain: "www.loud.kr",
     children: [
       { id: "ad-247", label: "eDM 발송", utm_source: "loud", utm_medium: "edm" },
+    ],
+  },
+  {
+    id: "inthiswork",
+    label: "인디스워크",
+    faviconDomain: "inthiswork.com",
+    children: [
+      { id: "ad-248", label: "채용공고", utm_source: "inthiswork", utm_medium: "article" },
     ],
   },
 ] as const;
