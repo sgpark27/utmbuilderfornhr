@@ -2,7 +2,7 @@ import type { ChannelGroup, ChannelLeaf } from "./channels";
 import { DEFAULT_CHANNEL_GROUPS } from "./channels";
 
 /** 기본 채널 목록(TSV)을 크게 바꾼 뒤 배포할 때마다 버전을 올리면, 예전 localStorage 캐시 없이 새 기본값이 적용됩니다. */
-const STORAGE_KEY = "careerlink-utm-channel-groups-v2";
+const STORAGE_KEY = "careerlink-utm-channel-groups-v3";
 
 function cloneDefault(): ChannelGroup[] {
   return JSON.parse(JSON.stringify(DEFAULT_CHANNEL_GROUPS)) as ChannelGroup[];

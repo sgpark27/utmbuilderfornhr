@@ -104,9 +104,8 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
   {
     id: "linkedin",
     label: "링크드인",
-    faviconDomain: "linkedin.com",
+    faviconDomain: "www.linkedin.com",
     children: [
-      { id: "ad-043", label: "피드", utm_source: "linkedin", utm_medium: "feed" },
       { id: "ad-176", label: "피드 (단일 이미지)", utm_source: "linkedin", utm_medium: "img" },
       { id: "ad-177", label: "피드 (동영상)", utm_source: "linkedin", utm_medium: "video" },
       { id: "ad-178", label: "피드 (복수 이미지 슬라이드)", utm_source: "linkedin", utm_medium: "carousel" },
@@ -573,7 +572,7 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
     label: "디맨드",
     faviconDomain: "www.dmand.co.kr",
     children: [
-      { id: "ad-227", label: "시작 팝업 모달", utm_source: "dmand", utm_medium: "startpopup" },
+      { id: "ad-227", label: "시작 팝업 모달", utm_source: "dmand", utm_medium: "startpopupmodal" },
       { id: "ad-228", label: "홈 하이라이트 배너", utm_source: "dmand", utm_medium: "homehilight" },
       { id: "ad-229", label: "홈 포커스 배너", utm_source: "dmand", utm_medium: "homefocus" },
       { id: "ad-230", label: "디맨드 추천 공고", utm_source: "dmand", utm_medium: "recommend" },
