@@ -124,7 +124,11 @@ function buildUtmUrl(
 }
 
 export default function App() {
-  const { groups: CHANNEL_GROUPS } = useChannelGroups();
+  const {
+    groups: CHANNEL_GROUPS,
+    channelsLoading,
+    channelsLoadError,
+  } = useChannelGroups();
   const [landingUrl, setLandingUrl] = useState("");
   const [campaign, setCampaign] = useState("");
   const [selectedLeafIds, setSelectedLeafIds] = useState<Set<string>>(
@@ -280,9 +284,24 @@ export default function App() {
 
   const totalPresets = countAllLeaves(CHANNEL_GROUPS);
 
+  if (channelsLoading) {
+    return (
+      <div className="flex min-h-screen flex-col items-center justify-center bg-slate-50">
+        <p className="text-slate-600">채널 목록을 불러오는 중…</p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex min-h-screen flex-col bg-slate-50 font-sans">
+      {channelsLoadError && (
+        <div
+          className="border-b border-amber-200 bg-amber-50 px-4 py-2 text-center text-sm text-amber-900"
+          role="status"
+        >
+          서버에서 채널을 읽지 못해 앱에 포함된 기본 목록을 씁니다. ({channelsLoadError})
+        </div>
+      )}
       <header className="border-b border-zinc-800 bg-black shadow-sm">
         <div className="mx-auto flex max-w-6xl flex-wrap items-start justify-between gap-4 px-4 py-8 sm:px-6">
           <div>

@@ -5,9 +5,11 @@ import {
   clearAdminSession,
   isAdminConfigured,
   isAdminSession,
+  setAdminCredsForApi,
   setAdminSession,
   verifyAdminCredentials,
 } from "../adminAuth";
+import { isCentralChannelMode } from "../apiChannels";
 import { useChannelGroups } from "../channelContext";
 import { SiteFooter } from "../SiteFooter";
 
@@ -24,7 +26,14 @@ export default function AdminPage() {
   const [loginId, setLoginId] = useState("");
   const [loginPw, setLoginPw] = useState("");
   const [loginError, setLoginError] = useState("");
-  const { groups, setGroups, resetToFactoryDefault } = useChannelGroups();
+  const {
+    groups,
+    setGroups,
+    resetToFactoryDefault,
+    lastSaveError,
+    clearLastSaveError,
+  } = useChannelGroups();
+  const centralChannels = isCentralChannelMode();
   const [resetConfirm, setResetConfirm] = useState(false);
 
   const configured = useMemo(() => isAdminConfigured(), []);
@@ -36,6 +45,7 @@ export default function AdminPage() {
       setLoginError("아이디 또는 비밀번호가 올바르지 않습니다.");
       return;
     }
+    setAdminCredsForApi(loginId.trim(), loginPw);
     setAdminSession();
     setLoggedIn(true);
     setLoginPw("");
@@ -214,6 +224,28 @@ export default function AdminPage() {
       </header>
 
       <main className="mx-auto w-full max-w-4xl flex-1 px-4 py-8 sm:px-6">
+        {centralChannels && (
+          <p className="mb-4 rounded-lg border border-sky-200 bg-sky-50 px-3 py-2 text-sm text-sky-900">
+            <strong>중앙 저장 모드</strong>입니다. 여기서 저장하면 서버(
+            <code className="rounded bg-sky-100 px-1">channel_groups.json</code>
+            )에 기록되며, 모든 방문자에게 같은 채널 목록이 보입니다.
+          </p>
+        )}
+        {lastSaveError && (
+          <div
+            className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800"
+            role="alert"
+          >
+            <span>저장 실패: {lastSaveError}</span>
+            <button
+              type="button"
+              onClick={clearLastSaveError}
+              className="shrink-0 text-red-600 underline"
+            >
+              닫기
+            </button>
+          </div>
+        )}
         <div className="mb-6 flex flex-wrap items-center gap-3">
           <button
             type="button"
@@ -238,9 +270,9 @@ export default function AdminPage() {
         </div>
 
         <p className="mb-6 text-xs text-slate-500">
-          변경 사항은 이 브라우저의{" "}
-          <code className="rounded bg-slate-100 px-1">localStorage</code>에
-          저장됩니다. 다른 PC·브라우저와는 공유되지 않습니다.
+          {centralChannels
+            ? "서버에 반영이 안 되면 PythonAnywhere Web 탭의 Reload와 환경 변수(UTM_BUILDER_*)를 확인하세요."
+            : "변경 사항은 이 브라우저의 localStorage에 저장됩니다. 다른 PC·브라우저와는 공유되지 않습니다."}
         </p>
 
         <ul className="space-y-6">

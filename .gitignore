@@ -3,3 +3,6 @@ node_modules
 .env.local
 .env.*.local
 *.log
+
+# PythonAnywhere 서버가 쓰는 중앙 채널 JSON (로컬 테스트 시 생성될 수 있음)
+**/channel_groups.json

@@ -62,9 +62,26 @@ from app import app as application
    /admin 으로 직접 들어가도 되는지 확인합니다.
 
 
+[채널 목록 “중앙 관리” (git pull / npm 빌드 없이 /admin에서만 수정하려면)]
+
+  빌드 전 환경 변수(로컬 셸 macOS/Linux 예):
+    export VITE_CENTRAL_CHANNELS=1
+    export VITE_ADMIN_ID="관리자아이디"
+    export VITE_ADMIN_PASSWORD="같은비밀번호"
+    npm run build
+
+  PythonAnywhere → Web → Environment variables(또는 WSGI 상단)에 아래를 추가.
+  값은 Vite에 넣은 VITE_ADMIN_ID / VITE_ADMIN_PASSWORD 와 같아야 합니다.
+
+    UTM_BUILDER_ADMIN_ID=관리자아이디
+    UTM_BUILDER_ADMIN_PASSWORD=같은비밀번호
+
+  첫 PUT 시 app.py 옆 data/channel_groups.json 이 생성됩니다. Web → Reload.
+
 [주의]
 
 - 비밀번호는 Vite 빌드 시 번들에 포함됩니다. 공개 URL이면 노출에 유의하세요.
 - 코드를 수정한 뒤에는 로컬에서 다시 npm run build 하고 dist 만 다시 업로드하면 됩니다.
+- VITE_CENTRAL_CHANNELS 를 켜지 않으면 이전과 같이 localStorage 전용 동작입니다.
 
 ================================================================================
