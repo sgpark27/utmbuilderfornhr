@@ -78,6 +78,19 @@ from app import app as application
 
   첫 PUT 시 app.py 옆 data/channel_groups.json 이 생성됩니다. Web → Reload.
 
+[배포 URL에서 중앙 저장이 안될 때]
+
+  1) 브라우저에서 https://본인.pythonanywhere.com/api/health 열기
+     - 404(HTML) 이면: 서버는 예전 app.py. git pull → 최신 app.py·dist 반영 → Reload
+     - JSON 에 "ok": true 이고
+       "admin_env_configured": false 이면: Web 탭 Environment variables 또는
+       WSGI 파일 맨 위에 아래를 넣은 뒤 Reload (Vite에 넣은 ID/비번과 동일)
+         import os
+         os.environ["UTM_BUILDER_ADMIN_ID"] = "…"
+         os.environ["UTM_BUILDER_ADMIN_PASSWORD"] = "…"
+  2) /admin에 파란「중앙 저장 모드」가 안 뜨고 노란 localStorage 경고만 뜨면
+     VITE_CENTRAL_CHANNELS=1 없이 빌드한 dist 를 올린 것. 다시 build 후 배포.
+
 [주의]
 
 - 비밀번호는 Vite 빌드 시 번들에 포함됩니다. 공개 URL이면 노출에 유의하세요.

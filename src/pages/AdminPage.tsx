@@ -228,7 +228,29 @@ export default function AdminPage() {
           <p className="mb-4 rounded-lg border border-sky-200 bg-sky-50 px-3 py-2 text-sm text-sky-900">
             <strong>중앙 저장 모드</strong>입니다. 여기서 저장하면 서버(
             <code className="rounded bg-sky-100 px-1">channel_groups.json</code>
-            )에 기록되며, 모든 방문자에게 같은 채널 목록이 보입니다.
+            )에 기록되며, 모든 방문자에게 같은 채널 목록이 보입니다. 저장이 안
+            되면 주소창에{" "}
+            <code className="rounded bg-sky-100 px-1">/api/health</code> 를
+            열어{" "}
+            <code className="rounded bg-sky-100 px-1">
+              &quot;admin_env_configured&quot;: true
+            </code>
+            인지 확인하세요. (false이면 PythonAnywhere Web·WSGI에
+            <code className="mx-0.5 rounded bg-sky-100 px-1">
+              UTM_BUILDER_ADMIN_*
+            </code>
+            추가)
+          </p>
+        )}
+        {!centralChannels && (
+          <p className="mb-4 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-950">
+            지금은 <strong>localStorage</strong> 전용입니다(서버에 채널이 안
+            올라감). PythonAnywhere에서 전원이 같은 목록을 쓰려면 빌드할 때
+            <code className="mx-0.5 rounded bg-amber-100 px-1">
+              VITE_CENTRAL_CHANNELS=1
+            </code>
+            을 켠 뒤 <code className="rounded bg-amber-100 px-1">npm run build</code>
+            · dist 배포·Reload 하세요.
           </p>
         )}
         {lastSaveError && (

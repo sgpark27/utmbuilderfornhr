@@ -27,6 +27,12 @@ def _const_eq(a: str, b: str) -> bool:
     return hmac.compare_digest(a.encode("utf-8"), b.encode("utf-8"))
 
 
+def _admin_configured() -> bool:
+    ex_id = (os.environ.get("UTM_BUILDER_ADMIN_ID") or "").strip()
+    ex_pw = (os.environ.get("UTM_BUILDER_ADMIN_PASSWORD") or "").strip()
+    return bool(ex_id and ex_pw)
+
+
 def _admin_ok() -> bool:
     body = request.get_json(silent=True) or {}
     ex_id = os.environ.get("UTM_BUILDER_ADMIN_ID") or ""
@@ -36,6 +42,18 @@ def _admin_ok() -> bool:
     got_id = (body.get("id") or "").strip()
     got_pw = body.get("password") or ""
     return _const_eq(got_id, ex_id) and _const_eq(got_pw, ex_pw)
+
+
+@app.route("/api/health", methods=["GET"])
+def health():
+    """배포 URL에서 API·환경 설정 확인용(브라우저에서 직접 열어볼 수 있음)."""
+    return jsonify(
+        {
+            "ok": True,
+            "channel_groups_file_exists": os.path.isfile(CHANNEL_FILE),
+            "admin_env_configured": _admin_configured(),
+        }
+    )
 
 
 @app.route("/api/channel-groups", methods=["GET"])
@@ -54,8 +72,26 @@ def get_channel_groups():
 
 @app.route("/api/channel-groups", methods=["PUT"])
 def put_channel_groups():
+    if not _admin_configured():
+        return (
+            jsonify(
+                {
+                    "error": "admin_env_not_set",
+                    "hint": "Web 탭 Environment variables 또는 WSGI 맨 위에 UTM_BUILDER_ADMIN_ID, UTM_BUILDER_ADMIN_PASSWORD 설정",
+                }
+            ),
+            503,
+        )
     if not _admin_ok():
-        return jsonify({"error": "unauthorized"}), 401
+        return (
+            jsonify(
+                {
+                    "error": "unauthorized",
+                    "hint": "VITE_ADMIN_ID/비밀번호(빌드 시)과 동일한지 확인",
+                }
+            ),
+            401,
+        )
     body = request.get_json(silent=True) or {}
     groups = body.get("groups")
     if not isinstance(groups, list):

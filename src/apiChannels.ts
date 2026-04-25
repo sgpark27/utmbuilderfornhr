@@ -62,8 +62,16 @@ export async function putChannelGroupsToServer(
       }),
     });
     if (!res.ok) {
-      const t = await res.text();
-      return { ok: false, error: t || `HTTP ${res.status}` };
+      const raw = await res.text();
+      let err = raw || `HTTP ${res.status}`;
+      try {
+        const j = JSON.parse(raw) as { error?: string; hint?: string };
+        if (j.hint) err = j.hint;
+        else if (j.error) err = j.error;
+      } catch {
+        // raw body 그대로
+      }
+      return { ok: false, error: err };
     }
     return { ok: true, error: "" };
   } catch (e) {
