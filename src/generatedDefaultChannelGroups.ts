@@ -492,6 +492,7 @@ export const GENERATED_DEFAULT_CHANNEL_GROUPS = [
       { id: "ad-193", label: "서브스카이", utm_source: "gamejob", utm_medium: "subsky" },
       { id: "ad-194", label: "서브하단", utm_source: "gamejob", utm_medium: "subbottom" },
       { id: "ad-195", label: "모바일 메인띠", utm_source: "gamejob", utm_medium: "mobilemain" },
+      { id: "ad-252", label: "엠페러", utm_source: "gamejob", utm_medium: "emperor" },
     ],
   },
   {
