@@ -17,7 +17,12 @@ export async function fetchChannelGroupsFromServer(): Promise<{
       headers: { Accept: "application/json" },
     });
     if (!res.ok) {
-      return { groups: DEFAULT_CHANNEL_GROUPS, error: `HTTP ${res.status}` };
+      let err = `HTTP ${res.status}`;
+      if (res.status === 404 && import.meta.env.DEV) {
+        err =
+          "API 404: Flask(127.0.0.1:5000)를 켜 두었는지 확인하세요. deploy/pythonanywhere → FLASK_APP=app.py && flask run -p 5000";
+      }
+      return { groups: DEFAULT_CHANNEL_GROUPS, error: err };
     }
     const data = (await res.json()) as { groups: ChannelGroup[] | null };
     if (data.groups == null) {
@@ -29,7 +34,10 @@ export async function fetchChannelGroupsFromServer(): Promise<{
     return { groups: data.groups, error: null };
   } catch (e) {
     const msg = e instanceof Error ? e.message : "network error";
-    return { groups: DEFAULT_CHANNEL_GROUPS, error: msg };
+    const hint = import.meta.env.DEV
+      ? " (개발: 터미널에 flask run -p 5000 을 켜 두세요)"
+      : "";
+    return { groups: DEFAULT_CHANNEL_GROUPS, error: msg + hint };
   }
 }
 
